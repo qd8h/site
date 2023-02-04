@@ -1,0 +1,104 @@
+
+body {
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    image-rendering: optimizespeed;
+    font-family: Flexi IBM VGA True;
+    color: #e8eaed;
+    text-align: center;
+    word-break: break-word;
+    zoom: 115%
+}
+
+@font-face {
+    font-family: Flexi IBM VGA True;
+    src: url(font.ttf);
+}
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    background-color: rgba(23, 23, 23, 0.3);
+    box-shadow:  0 0 7px #0015ff;
+    padding:  1px;
+
+
+
+}
+
+img {
+    align-items: right;
+}
+
+ .widget-container {
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+}
+
+
+
+tr, th, td{
+    border: 2px solid #124918;
+    padding: 0.3em;
+}
+  .daheader {
+    margin-bottom: 2rem;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .danav {
+    display: flex;
+    text-align: center;
+  }
+  
+  .danav a {
+    display: block;
+    padding: 1rem;
+    color: #f7f1ff;
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-shadow:
+        0 0 7px #0015ff,
+        0 0 14px #0015ff;
+  }
+  .daheader {
+    margin-bottom: 2rem;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .danav {
+    display: flex;
+    text-align: center;
+  }
+  
+  .danav a {
+    display: block;
+    padding: 1rem;
+    color: #0015ff;
+
+  }
+  h2 {
+    margin-left: 2%;
+    text-align: left;
+    text-decoration: none;
+    color: inherit;
+  }
+  p {
+    font-size: 17px;
+    text-align: left;
+  }
