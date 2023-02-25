@@ -19,7 +19,10 @@ body {
     margin-right: 20%;
     margin-top: 30px;
     background-color: rgba(23, 23, 23, 0.3);
-    box-shadow:  0 0 7px #0015ff;
+    border-left: 2px solid #0015ff;
+    border-right: 2px solid #0015ff;
+    border-bottom: 2px solid #0015ff;
+    border-top: 2px solid #0015ff;
     padding:  1px;
 
 
@@ -68,9 +71,7 @@ tr, th, td{
     color: inherit;
     font-size: 50px;
     text-decoration-line: underline;
-    text-shadow:
-        0 0 7px #0015ff,
-        0 0 14px #0015ff;
+
   }
   .daheader {
     margin-bottom: 2rem;
